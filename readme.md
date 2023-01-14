@@ -1,6 +1,6 @@
 # Batch Script
 
-My batch script collections.
+My batch script collection.
 
 ## Requirements
 
