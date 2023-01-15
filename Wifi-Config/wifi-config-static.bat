@@ -14,5 +14,6 @@ netsh int ip set address "Wi-Fi" static %_IPaddress% %_SubnetMask% %_DefaultGate
 netsh int ip set dns name="Wi-Fi" static 8.8.8.8
 netsh int ip add dns name="Wi-Fi" addr=8.8.4.4 index=2
 
+echo DONE
 pause
 
