@@ -9,4 +9,4 @@ My batch script collection.
 ## Run the Script
 
 - Open the file.
-- Some files need run as an administrator.
+- Some files need to run as an administrator.
