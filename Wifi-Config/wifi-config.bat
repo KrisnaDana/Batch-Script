@@ -2,6 +2,8 @@
 title Wifi Configuration
 :start
 echo =========================================
+echo           Run As Administrator         
+echo =========================================
 echo 1. Wifi configuration to automatic (DHCP)
 echo 2. Wifi configuration to static
 echo 3. Exit
