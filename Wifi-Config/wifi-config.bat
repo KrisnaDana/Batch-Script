@@ -27,8 +27,8 @@ for /F "tokens=14" %%i in ('ipconfig ^| findstr IPv4') do set _IPaddress=%%i
 for /F "tokens=15" %%j in ('ipconfig ^| findstr Subnet') do set _SubnetMask=%%j
 for /F "tokens=13" %%k in ('ipconfig ^| findstr Default') do set _DefaultGateway=%%k
 netsh int ip set address "Wi-Fi" static %_IPaddress% %_SubnetMask% %_DefaultGateway%
-netsh int ip set dns name="Wi-Fi" static 8.8.8.8
-netsh int ip add dns name="Wi-Fi" addr=8.8.4.4 index=2
+netsh int ip set dns name="Wi-Fi" static 1.1.1.1
+netsh int ip add dns name="Wi-Fi" addr=1.1.0.0 index=2
 echo DONE
 goto start
 
